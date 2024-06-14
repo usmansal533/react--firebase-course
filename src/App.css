@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+}
+
+#input{
+  padding: 7px;
+  border: 2px solid black;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.button{
+  padding: 5px;
+  border: 1px solid black;
+  background-color: rgb(248, 248, 248);
+  color: black;
+  border-radius: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+h1{
+  color: black;
+}
+.form_div{
+  background-color: aliceblue;
+  width: 300px;
+  margin-left: 460px;
+  padding: 53px;
+  margin-top: 140px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+nav ul li .Dropdown{
+  position: absolute;
+  display: none;
+}
+nav ul li:hover .Dropdown{
+  display: block;
+  height: 150px;
+  width: 200px;
+} 
+nav{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 23px;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+.btn{
+  padding: 5px;
+  border: 1px solid black;
+  background-color: rgb(248, 248, 248);
+  color: black;
+  margin-left: 12px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+@media only screen and (max-width:760px) {
+  .form_div{
+    background-color: aliceblue;
+    width: 300px;
+    padding: 13px;
+    position: absolute;
+  }
+  nav{
+    display: flex;
+  }
+}
